@@ -17,10 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Font1","order":16,"path":"fonts/Font1/Font1.yy",},
     {"name":"obj_settings_controller","order":1,"path":"objects/obj_settings_controller/obj_settings_controller.yy",},
-    {"name":"Object3","order":2,"path":"objects/Object3/Object3.yy",},
+    {"name":"obj_text","order":2,"path":"objects/obj_text/obj_text.yy",},
+    {"name":"Object5","order":4,"path":"objects/Object5/Object5.yy",},
     {"name":"spr_bg_opening","order":1,"path":"sprites/spr_bg_opening/spr_bg_opening.yy",},
+    {"name":"spr_font","order":2,"path":"sprites/spr_font/spr_font.yy",},
     {"name":"spr_temp_button","order":1,"path":"sprites/spr_temp_button/spr_temp_button.yy",},
   ],
 }
