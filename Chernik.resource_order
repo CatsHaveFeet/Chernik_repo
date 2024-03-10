@@ -18,11 +18,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_settings_controller","order":1,"path":"objects/obj_settings_controller/obj_settings_controller.yy",},
+    {"name":"obj_sound_manager","order":5,"path":"objects/obj_sound_manager/obj_sound_manager.yy",},
     {"name":"obj_text","order":2,"path":"objects/obj_text/obj_text.yy",},
     {"name":"Object5","order":4,"path":"objects/Object5/Object5.yy",},
-    {"name":"obj_sound_manager","order":5,"path":"objects/obj_sound_manager/obj_sound_manager.yy",},
     {"name":"spr_bg_opening","order":1,"path":"sprites/spr_bg_opening/spr_bg_opening.yy",},
     {"name":"spr_font","order":2,"path":"sprites/spr_font/spr_font.yy",},
+    {"name":"spr_main_font","order":3,"path":"sprites/spr_main_font/spr_main_font.yy",},
     {"name":"spr_temp_button","order":1,"path":"sprites/spr_temp_button/spr_temp_button.yy",},
   ],
 }
