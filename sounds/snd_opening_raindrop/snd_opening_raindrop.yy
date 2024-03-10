@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_opening_raindrop",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":3,
+  "conversionMode":0,
+  "duration":62.239456,
+  "name":"snd_opening_raindrop",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_opening_raindrop.ogg",
+  "type":1,
+  "volume":1.0,
+}
