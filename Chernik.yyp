@@ -34,7 +34,6 @@
   },
   "name":"Chernik",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
     {"id":{"name":"obj_settings_controller","path":"objects/obj_settings_controller/obj_settings_controller.yy",},},
     {"id":{"name":"obj_sound_manager","path":"objects/obj_sound_manager/obj_sound_manager.yy",},},
