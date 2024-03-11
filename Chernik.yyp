@@ -44,6 +44,7 @@
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},},
     {"id":{"name":"spr_temp_button","path":"sprites/spr_temp_button/spr_temp_button.yy",},},
+    {"id":{"name":"spr_bg_menu","path":"sprites/spr_bg_menu/spr_bg_menu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -23,5 +23,6 @@
     {"name":"spr_bg_opening","order":1,"path":"sprites/spr_bg_opening/spr_bg_opening.yy",},
     {"name":"spr_main_font","order":3,"path":"sprites/spr_main_font/spr_main_font.yy",},
     {"name":"spr_temp_button","order":1,"path":"sprites/spr_temp_button/spr_temp_button.yy",},
+    {"name":"spr_bg_menu","order":4,"path":"sprites/spr_bg_menu/spr_bg_menu.yy",},
   ],
 }

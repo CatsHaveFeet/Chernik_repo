@@ -1,15 +1,24 @@
 {
 
-	width = 598;
-	height = 276;
+	width = 164;
+	height = 104;
 	
-	op_border = 8;
-	op_space = 16;
+	op_border = 14;
+	op_space = 26;
 	
-	option[0] = "Start game";
-	option[1] = "Settings";
-	option[2] = "Quit";
+	pos = 0;
 	
-	op_length = array_length(option);
+	//start menu
+	option[0, 0] = "Start game";
+	option[0, 1] = "Settings";
+	option[0, 2] = "Quit";
+	//settings menu
+	option[1, 0] = "Brightness";
+	option[1, 1] = "Controls";
+	option[1, 2] = "Volume";
+	option[1, 3] = "Back";
+	
+	op_length = 0;
+	menu_level = 0;
 
 }
