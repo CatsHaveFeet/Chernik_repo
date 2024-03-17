@@ -18,7 +18,10 @@
 			
 			//deactivate all other instances
 			instance_deactivate_all(true);
-			instance_activate_object(obj_pause_menu);
+			if (!instance_exists(obj_pause_menu)) {
+				instance_create_layer(0, 0, "Instances", obj_pause_menu);
+				instance_activate_object(obj_pause_menu);
+			}
 			
 			//capture this game moment (without GUI)
 			pauseSurf = surface_create(resW, resH);
@@ -36,7 +39,9 @@
 		else { //unpause now
 			pause = false;
 			instance_activate_all();
-			instance_deactivate_object(obj_pause_menu);
+			if (instance_exists(obj_pause_menu)) {
+				instance_destroy(obj_pause_menu);
+			}
 			if (surface_exists(pauseSurf)) surface_free(pauseSurf);
 			if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 		}

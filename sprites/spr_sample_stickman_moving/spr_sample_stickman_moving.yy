@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"Chernik_sample_stickman_moving_1_1_png__1_",
-  "bboxMode":0,
-  "bbox_bottom":125,
+  "%Name":"spr_sample_stickman_moving",
+  "bboxMode":2,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":71,
-  "bbox_top":0,
+  "bbox_right":15,
+  "bbox_top":12,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -17,12 +17,12 @@
   ],
   "gridX":18,
   "gridY":6,
-  "height":126,
+  "height":28,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d6116668-b1b1-404f-9bb1-18dd4dc42cc7","blendMode":0,"displayName":"default","isLocked":false,"name":"d6116668-b1b1-404f-9bb1-18dd4dc42cc7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Chernik_sample_stickman_moving_1_1_png__1_",
+  "name":"spr_sample_stickman_moving",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Chernik_sample_stickman_moving_1_1_png__1_",
+    "%Name":"spr_sample_stickman_moving",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Chernik_sample_stickman_moving_1_1_png__1_",
+    "name":"spr_sample_stickman_moving",
     "playback":1,
     "playbackSpeed":4.0,
     "playbackSpeedType":0,
@@ -70,17 +70,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d41c632a-7645-4f32-b96d-79bc77a0a392","path":"sprites/Chernik_sample_stickman_moving_1_1_png__1_/Chernik_sample_stickman_moving_1_1_png__1_.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d41c632a-7645-4f32-b96d-79bc77a0a392","path":"sprites/spr_sample_stickman_moving/spr_sample_stickman_moving.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b4a83292-8d0a-47bf-9493-32ce4c660720","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d30b55e3-533b-47d9-b4ba-1cd549f5eb71","path":"sprites/Chernik_sample_stickman_moving_1_1_png__1_/Chernik_sample_stickman_moving_1_1_png__1_.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d30b55e3-533b-47d9-b4ba-1cd549f5eb71","path":"sprites/spr_sample_stickman_moving/spr_sample_stickman_moving.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"61b9d111-8695-4066-b9dd-eeef66527e2c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":36,
-    "yorigin":63,
+    "xorigin":8,
+    "yorigin":14,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":72,
+  "width":16,
 }
