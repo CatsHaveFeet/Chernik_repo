@@ -27,10 +27,8 @@
 				switch (pos) {
 					//start game
 					case 0:
-						if (audio_is_playing(obj_sound_manager.song_instance)) {
-							audio_pause_sound(obj_sound_manager.song_instance);
-						}
-						room_goto_next();
+						keyboard_key_press(vk_escape);
+						keyboard_key_release(vk_escape);
 						break;
 			
 					//settings

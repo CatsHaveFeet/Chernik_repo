@@ -38,6 +38,7 @@
 		}
 		else { //unpause now
 			pause = false;
+			keyboard_clear(vk_escape);
 			instance_activate_all();
 			if (instance_exists(obj_pause_menu)) {
 				instance_destroy(obj_pause_menu);
