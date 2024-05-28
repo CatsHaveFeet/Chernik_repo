@@ -1,6 +1,12 @@
 {
 	depth = -9999;
 	
+	function create_item(_name, _desc) constructor
+	{
+		name = _name;
+		description = _desc;
+	}
+	
 	_c = c_white;
 	
 	global.item_list = 
