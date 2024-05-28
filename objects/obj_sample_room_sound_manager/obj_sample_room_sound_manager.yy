@@ -1,18 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sound_manager",
+  "%Name":"obj_sample_room_sound_manager",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sound_manager",
-  "overriddenProperties":[],
+  "name":"obj_sample_room_sound_manager",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_sound_manager","path":"objects/obj_sound_manager/obj_sound_manager.yy",},"propertyId":{"name":"current_sound","path":"objects/obj_sound_manager/obj_sound_manager.yy",},"resource":{"name":"snd_sneaky_snitch","path":"sounds/snd_sneaky_snitch/snd_sneaky_snitch.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_sneaky_snitch",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_sound_manager",
+    "path":"objects/obj_sound_manager/obj_sound_manager.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,9 +31,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"current_sound","filters":[],"listItems":[],"multiselect":false,"name":"current_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_opening_raindrop","path":"sounds/snd_opening_raindrop/snd_opening_raindrop.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_opening_raindrop","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

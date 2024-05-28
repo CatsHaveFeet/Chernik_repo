@@ -17,7 +17,7 @@
 	page_number = 0;
 	text[0] = "Hello!";
 	text[1] = "Heeeeeeelllooooooooooooooooooooooo...";
-	text[2] = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH";
+	text[2] = "AAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHH";
 	text[3] = "Lorem ipsum dolor sit amet.";
 	text[4] = "*leaves*";
 	text_length[0] = string_length(text[0]);
