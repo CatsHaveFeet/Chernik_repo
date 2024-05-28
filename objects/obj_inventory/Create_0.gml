@@ -30,4 +30,6 @@
 	
 	sep = 16;
 	screen_border = 16;
+	
+	menu_open = false;
 }

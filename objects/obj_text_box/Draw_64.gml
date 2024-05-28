@@ -1,6 +1,4 @@
-{
-	accept_key = keyboard_check_pressed(vk_enter);
-	
+{	
 	textbox_x = textbox_border;
 	textbox_y = window_get_height() / 1.5 - sprite_get_height(textb_spr);
 	
@@ -29,7 +27,7 @@
 	}
 	
 	//flip through pages
-	if (accept_key) {
+	if (ACCEPT_INPUT) {
 		//if typing is done
 		if (draw_char == text_length[page]) {
 			//next page
