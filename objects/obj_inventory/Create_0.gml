@@ -1,21 +1,28 @@
 {
 	depth = -9999;
 	
-	function create_item(_name, _desc) constructor
+	function create_item(_name, _desc, _spr) constructor
 	{
 		name = _name;
 		description = _desc;
+		sprite = _spr;
 	}
 	
 	_c = c_white;
 	
 	global.item_list = 
 	{
-		stick : 
-			{
-				name : "Stick",
-				description : "An impressively average stick."
-			}
+		stick : new create_item(
+			"Stick",
+			"An impressively average stick.",
+			spr_logo
+		),
+		
+		bottle : new create_item(
+			"Empty bottle",
+			"A bottle of already drunk liquid",
+			spr_bottle
+		)
 	}
 	
 	inv = array_create(0);
