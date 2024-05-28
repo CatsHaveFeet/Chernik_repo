@@ -31,10 +31,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"Chernik",
   "resources":[
+    {"id":{"name":"obj_hidden_item_dialogue","path":"objects/obj_hidden_item_dialogue/obj_hidden_item_dialogue.yy",},},
+    {"id":{"name":"obj_hidden_item","path":"objects/obj_hidden_item/obj_hidden_item.yy",},},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
     {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
@@ -45,6 +47,7 @@
     {"id":{"name":"obj_text_box","path":"objects/obj_text_box/obj_text_box.yy",},},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"Opening_screen","path":"rooms/Opening_screen/Opening_screen.yy",},},
     {"id":{"name":"Sample_room_2","path":"rooms/Sample_room_2/Sample_room_2.yy",},},
     {"id":{"name":"Sample_room","path":"rooms/Sample_room/Sample_room.yy",},},
