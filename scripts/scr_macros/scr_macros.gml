@@ -9,3 +9,4 @@
 #macro DOWN_INPUT keyboard_check_pressed(vk_down)
 #macro LEFT_INPUT keyboard_check_pressed(vk_left)
 #macro RIGHT_INPUT keyboard_check_pressed(vk_right)
+#macro SPRINT_INPUT keyboard_check_pressed(vk_shift)
