@@ -35,6 +35,7 @@
   },
   "name":"Chernik",
   "resources":[
+    {"id":{"name":"obj_dialogue_pause","path":"objects/obj_dialogue_pause/obj_dialogue_pause.yy",},},
     {"id":{"name":"obj_hidden_item_dialogue","path":"objects/obj_hidden_item_dialogue/obj_hidden_item_dialogue.yy",},},
     {"id":{"name":"obj_hidden_item","path":"objects/obj_hidden_item/obj_hidden_item.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},

@@ -18,6 +18,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_dialogue_pause","order":6,"path":"objects/obj_dialogue_pause/obj_dialogue_pause.yy",},
     {"name":"obj_hidden_item_dialogue","order":5,"path":"objects/obj_hidden_item_dialogue/obj_hidden_item_dialogue.yy",},
     {"name":"obj_hidden_item","order":4,"path":"objects/obj_hidden_item/obj_hidden_item.yy",},
     {"name":"obj_inventory","order":11,"path":"objects/obj_inventory/obj_inventory.yy",},
