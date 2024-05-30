@@ -10,7 +10,7 @@
 			var _sep = sep;
 		
 			draw_sprite(inv[i].sprite, 0, _xx, _yy + _sep * i);
-			draw_text_transformed_color(_xx + 16, _yy + _sep * i, inv[i].name, 0.5, 0.5, 0, _c, _c, _c, _c, 1);
+			draw_text_transformed_color(_xx + 16, _yy + (sprite_get_height(inv[i].sprite) / 2) - (string_height("M") / 2) + _sep * i, inv[i].name, 0.5, 0.5, 0, _c, _c, _c, _c, 1);
 		}
 	}
 }

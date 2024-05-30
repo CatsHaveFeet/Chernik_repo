@@ -12,17 +12,13 @@
 		surface_reset_target();
 	}
 	
-	if (!instance_exists(obj_text_box)) {
-		instance_create_layer(0, 0, "Instances", obj_text_box);
-		instance_activate_object(obj_text_box);
-	}
-	
 	if (instance_exists(obj_text_box)) { //toggle pause
 		if (!pause){ //pause now
 			pause = true;
 			
 			//deactivate all other instances
 			instance_deactivate_all(true);
+			instance_activate_object(obj_text_box);
 			
 			//capture this game moment (without GUI)
 			pauseSurf = surface_create(resW, resH);
