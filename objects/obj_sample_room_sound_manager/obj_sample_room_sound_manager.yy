@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_sample_room_sound_manager",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_sound_manager","path":"objects/obj_sound_manager/obj_sound_manager.yy",},"propertyId":{"name":"current_sound","path":"objects/obj_sound_manager/obj_sound_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_sneaky_snitch",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_sound_manager","path":"objects/obj_sound_manager/obj_sound_manager.yy",},"propertyId":{"name":"current_sound","path":"objects/obj_sound_manager/obj_sound_manager.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_sneaky_snitch",},
   ],
   "parent":{
     "name":"Objects",

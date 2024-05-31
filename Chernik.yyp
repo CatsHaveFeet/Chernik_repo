@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Chernik",
   "resources":[
@@ -64,10 +64,10 @@
     {"id":{"name":"spr_main_font_menus","path":"sprites/spr_main_font_menus/spr_main_font_menus.yy",},},
     {"id":{"name":"spr_sample_stickman_moving","path":"sprites/spr_sample_stickman_moving/spr_sample_stickman_moving.yy",},},
     {"id":{"name":"spr_sample_stickman_stationary","path":"sprites/spr_sample_stickman_stationary/spr_sample_stickman_stationary.yy",},},
+    {"id":{"name":"spr_stick","path":"sprites/spr_stick/spr_stick.yy",},},
     {"id":{"name":"spr_temp_button","path":"sprites/spr_temp_button/spr_temp_button.yy",},},
     {"id":{"name":"spr_wall_tiles","path":"sprites/spr_wall_tiles/spr_wall_tiles.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
-    {"id":{"name":"spr_stick","path":"sprites/spr_stick/spr_stick.yy",},},
     {"id":{"name":"ts_wall","path":"tilesets/ts_wall/ts_wall.yy",},},
   ],
   "resourceType":"GMProject",

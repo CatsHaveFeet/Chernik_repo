@@ -17,7 +17,7 @@
 	page_number = 0;
 	text[0] = "Hello!";
 	text[1] = "Welcome to the Chernik playtest!";
-	text[2] = "There isn't much to see at the moment...";
+	text[2] = "There isn't much here at the moment...";
 	text[3] = "But hopefully you like what you see!";
 	text[4] = "Bye!";
 	text_length[0] = string_length(text[0]);

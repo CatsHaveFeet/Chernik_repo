@@ -41,9 +41,9 @@
     {"name":"spr_main_font_menus","order":3,"path":"sprites/spr_main_font_menus/spr_main_font_menus.yy",},
     {"name":"spr_sample_stickman_moving","order":7,"path":"sprites/spr_sample_stickman_moving/spr_sample_stickman_moving.yy",},
     {"name":"spr_sample_stickman_stationary","order":5,"path":"sprites/spr_sample_stickman_stationary/spr_sample_stickman_stationary.yy",},
+    {"name":"spr_stick","order":11,"path":"sprites/spr_stick/spr_stick.yy",},
     {"name":"spr_temp_button","order":1,"path":"sprites/spr_temp_button/spr_temp_button.yy",},
     {"name":"spr_wall_tiles","order":9,"path":"sprites/spr_wall_tiles/spr_wall_tiles.yy",},
     {"name":"spr_wall","order":8,"path":"sprites/spr_wall/spr_wall.yy",},
-    {"name":"spr_stick","order":11,"path":"sprites/spr_stick/spr_stick.yy",},
   ],
 }

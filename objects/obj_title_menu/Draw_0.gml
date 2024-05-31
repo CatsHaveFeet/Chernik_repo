@@ -14,7 +14,7 @@
 	height = op_border * 2 + string_height(option[0, 0]) + (op_length - 1) * op_space;
 	
 	//center menu
-	x = window_get_width() / 2 - width / 2;
+	x = window_get_width() / 2 - width / 2 ;
 	y = window_get_height() / 2 - height / 2 + 40;
 	
 	//draw menu background
