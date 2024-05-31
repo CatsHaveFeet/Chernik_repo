@@ -6,6 +6,7 @@
 	def_move_spd = 1;
 	move_spd = def_move_spd;
 	sprint_spd = def_move_spd * 1.5;
+	sprinting = false;
 	
 	//changes sprites depending on direction
 	//TODO: make more sprites after sample is finished
