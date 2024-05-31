@@ -24,7 +24,7 @@
 		stick : new create_item(
 			"Stick",
 			"An impressively average stick.",
-			spr_wall
+			spr_stick
 		),
 		
 		bottle : new create_item(

@@ -16,10 +16,10 @@
 	page = 0;
 	page_number = 0;
 	text[0] = "Hello!";
-	text[1] = "Heeeeeeelllooooooooooooooooooooooo...";
-	text[2] = "AAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHH";
-	text[3] = "Lorem ipsum dolor sit amet.";
-	text[4] = "*leaves*";
+	text[1] = "Welcome to the Chernik playtest!";
+	text[2] = "There isn't much to see at the moment...";
+	text[3] = "But hopefully you like what you see!";
+	text[4] = "Bye!";
 	text_length[0] = string_length(text[0]);
 	draw_char = 0;
 	text_spd = 1;
