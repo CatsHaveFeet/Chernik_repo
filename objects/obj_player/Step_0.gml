@@ -1,13 +1,6 @@
 {
-
-	right_key = keyboard_check(vk_right);
-	left_key = keyboard_check(vk_left);
-	up_key = keyboard_check(vk_up);
-	down_key = keyboard_check(vk_down);
-	sprint_key = keyboard_check(vk_shift);
-	
 	//changes move_spd if shift is pressed or not
-	if (sprint_key) {
+	if (SPRINT_INPUT) {
 		move_spd = sprint_spd;
 	}
 	else {
@@ -15,8 +8,8 @@
 	}
 	
 	//set xspd and yspd
-	xspd = (right_key - left_key) * move_spd;
-	yspd = (down_key - up_key) * move_spd; //because gamemaker is stupid and takes y reversed
+	xspd = (RIGHT_MOVE - LEFT_MOVE) * move_spd;
+	yspd = (DOWN_MOVE - UP_MOVE) * move_spd; //because gamemaker takes y reversed
 	
 	//set sprite
 	mask_index = sprite[STOP];
