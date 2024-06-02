@@ -3,7 +3,7 @@
 	
 	if (keyboard_check_pressed(ord("I"))) {menu_open = !menu_open}
 	
-	if (menu_open) {	
+	if (menu_open && room != room_first) {	
 		for (var i = 0; i < array_length(inv); i++) {
 			var _xx = screen_border + camera_get_view_x(view_camera[0]);
 			var _yy = screen_border + camera_get_view_y(view_camera[0]) + (i > 0 ? add_previous_sprite_heights(i) : 0);

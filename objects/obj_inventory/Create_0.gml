@@ -17,7 +17,7 @@
 		return k;
 	}
 	
-	_c = c_white;
+	_c = c_black;
 	
 	global.item_list = 
 	{

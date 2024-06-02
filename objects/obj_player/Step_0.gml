@@ -7,6 +7,10 @@
 		move_spd = def_move_spd;
 	}
 	
+	if (instance_exists(obj_text_box) or instance_exists(obj_hidden_item_dialogue)) {
+		move_spd = 0;
+	}
+	
 	//set xspd and yspd
 	xspd = (RIGHT_MOVE - LEFT_MOVE) * move_spd;
 	yspd = (DOWN_MOVE - UP_MOVE) * move_spd; //because gamemaker takes y reversed
