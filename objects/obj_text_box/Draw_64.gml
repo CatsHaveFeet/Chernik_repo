@@ -8,6 +8,7 @@
 		draw_set_font(global.font_main);
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
+		global.dialogue_state = true;
 		
 		//loop through pages
 		page_number = array_length(text);
@@ -38,6 +39,7 @@
 			//destroy textbox
 			else {
 				instance_destroy();
+				global.dialogue_state = false;
 			}
 		}
 		//if not done typing

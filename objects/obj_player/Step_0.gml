@@ -8,7 +8,7 @@
 	}
 	
 	//stops player in case of dialogue (TEMPORARY)
-	if (instance_exists(obj_text_box) or instance_exists(obj_hidden_item_dialogue)) {
+	if (global.dialogue_state) {
 		move_spd = 0;
 	}
 	
